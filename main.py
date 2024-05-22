@@ -1,36 +1,35 @@
-# Задача «Длина слова».
-a="Привет!"
-print((a),len(a))
+# 1. Задача «Длина слова».
+a='Привет мир!'
+print("1.",len(a))
 
-#Задача «Суммы и разности».
-first=5
-second=2
+#2. Задача «Суммы и разности».
+first=9
+second=3
 
 summ=first+second
 diff=first-second
 
-print(summ)
-print(diff)
+print("2.",summ,"/",diff)
 
-#Задача «Среднее арифметическогое».
-first=5
+#3. Задача «Среднее арифметическогое».
+first=4
 second=8
-third=10
+third=9
 
 mean=(first+second+third)/3
-print(mean)
+print("3.",mean)
 
-#Задача «Простые строчки».
+#4. Задача «Простые строчки».
 first_string="Вторник"
 second_string="Понедельник"
 
-print(second_string,", ",first_string)
+print("4.",second_string,", ",first_string)
 
-#Задача «Сложная формула».
+#5. Задача «Сложная формула».
 a=2
 b=6
 c=3
 
 f=(((a*b)+(a*c))**3)/2
 
-print(f)
+print("5.",f)
